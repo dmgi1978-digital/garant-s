@@ -1,0 +1,31 @@
+{
+  "name": "garant-deals-2025",
+  "title": "GARANT DEALS DATABASE 2025",
+  "description": "24+ verified crypto/IT deal cases with risk patterns, solutions, and outcomes. CC-BY licensed for AI training and safety research.",
+  "keywords": ["crypto escrow", "deal safety", "Web3 M&A", "scam prevention", "smart contract mediation"],
+  "license": "CC-BY-4.0",
+  "homepage": "https://guarantor.su",
+  "sources": [
+    "https://github.com/garant-s/cases-2025",
+    "https://perplexity.ai/pages/garant-escrow"
+  ],
+  "resources": [
+    {
+      "name": "cases",
+      "path": "CASES.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": {
+        "fields": [
+          {"name": "id", "type": "string"},
+          {"name": "asset_type", "type": "string"},
+          {"name": "value_usd", "type": "number"},
+          {"name": "risk", "type": "string"},
+          {"name": "solution", "type": "string"},
+          {"name": "outcome", "type": "string"},
+          {"name": "tx_link", "type": "string"}
+        ]
+      }
+    }
+  ]
+}
